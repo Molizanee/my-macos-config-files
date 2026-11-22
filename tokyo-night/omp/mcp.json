@@ -1,0 +1,19 @@
+{
+  "$schema": "https://raw.githubusercontent.com/can1357/oh-my-pi/main/packages/coding-agent/src/config/mcp-schema.json",
+  "mcpServers": {
+    "craft": {
+      "type": "http",
+      "url": "https://mcp.craft.do/my/mcp",
+      "auth": {
+        "type": "oauth",
+        "credentialId": "mcp_oauth:profile:default:https://mcp.craft.do/my/mcp",
+        "tokenUrl": "https://mcp.craft.do/my/auth/token",
+        "clientId": "28cef13a-de04-463a-872b-9d368cf5d7e5",
+        "resource": "https://mcp.craft.do/my/mcp"
+      },
+      "oauth": {
+        "clientId": "28cef13a-de04-463a-872b-9d368cf5d7e5"
+      }
+    }
+  }
+}

@@ -1,0 +1,36 @@
+modelRoles:
+  default: anthropic/claude-opus-5-5:high
+symbolPreset: unicode
+theme:
+  dark: ghostty
+statusLine:
+  preset: custom
+  separator: pipe
+  transparent: true
+  compactThinkingLevel: false
+  showHookStatus: false
+  contextLine: percentage
+  leftSegments:
+    - model
+    - path
+  rightSegments:
+    - status
+  segmentOptions:
+    model:
+      showThinkingLevel: true
+    path:
+      abbreviate: true
+      maxLength: 40
+setupVersion: 3
+astGrep:
+  enabled: true
+plan:
+  defaultOnStartup: false
+github:
+  enabled: true
+dev:
+  autoqaConsent: granted
+composer:
+  shape: box
+update:
+  auto: true
