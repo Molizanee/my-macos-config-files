@@ -1,6 +1,8 @@
 # config-files
 
-My personal dotfiles for the terminal setup, organized by theme. Each theme folder holds the full set of configs for every app, plus matching wallpapers.
+My personal dotfiles for my macOS setup, organized by theme. Each theme folder holds the full set of configs for every app, plus matching wallpapers.
+
+All paths and settings target macOS (Apple Silicon); they are not tested on Linux or Windows.
 
 ## Themes
 
